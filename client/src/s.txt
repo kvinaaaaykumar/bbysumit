@@ -1,0 +1,10 @@
+server {
+  listen 80;
+  root /root/simplebysumit/client/dist;
+
+  location / {
+    try_files $uri $uri/ =404
+  }
+}
+
+147.93.30.59.conf
